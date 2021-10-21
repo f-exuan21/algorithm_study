@@ -17,9 +17,6 @@ for i in range(n):
 		elif graph[i][j] == 'T':
 			teacher.append([i, j])
 
-# 상, 하, 좌, 우
-# dx = [-1, 1, 0, 0]
-# dy = [0, 0, -1, 1]
 def find_student(graph, tx, ty, dx, dy):
 	tmpx = tx + dx
 	tmpy = ty + dy
