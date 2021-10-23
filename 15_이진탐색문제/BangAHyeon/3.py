@@ -8,7 +8,7 @@ for _ in range(n):
 	array.append(int(input()))
 array.sort()
 
-start = array[1] - array[0] # 집 사이 거리가 가장 짧은 것
+start = 1 # 집 사이 거리가 가장 짧은 것
 end = array[-1] - array[0] # 집 사이 거리가 가장 먼 것
 result = 0
 
